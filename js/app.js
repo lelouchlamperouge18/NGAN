@@ -139,9 +139,10 @@ function showTotals(){
 //element.insertBefore
 //reduct method
 function confirm(){
-    var t = prompt("Nhập tên của bạn: ", '');
-    var p = prompt("Nhập địa chỉ của bạn: ", '');
-    alert('Chúc mừng bạn ' + t + ' đã mua hàng thành công. Chờ nhận hàng tại: ' + p + '. CẢM ƠN!');
+    // var t = prompt("Nhập tên của bạn: ", '');
+    // var p = prompt("Nhập địa chỉ của bạn: ", '');
+    // alert('Chúc mừng bạn ' + t + ' đã mua hàng thành công. Chờ nhận hàng tại: ' + p + '. CẢM ƠN!');
+    alert('Chúc mừng bạn đã mua hàng thành công!');
 }
 
 $(function () {

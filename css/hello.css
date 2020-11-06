@@ -1,0 +1,105 @@
+.vnm-floating-social {
+  font-size: 0;
+  font-family: Arial,sans-serif;
+  position: fixed;
+  right: 15px;
+  bottom: 115px;
+  z-index: 100;
+  -webkit-overflow-scrolling: touch;
+}
+.vnm-floating-social ul {
+  margin: 0;
+  list-style: none;
+}
+.vnm-floating-social__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  pointer-events: all;
+  position: static;
+  z-index: 1;
+}
+.vnm-floating-social__list>li {
+  margin-top: 10px!important;
+  position: relative;
+}
+.vnm-floating-social *, .vnm-floating-social :after, .vnm-floating-social :before {
+  box-sizing: border-box;
+}
+li {
+  display: list-item;
+}
+.vnm-floating-social a {
+  text-decoration: none;
+}
+.vnm-floating-social *, .vnm-floating-social :after, .vnm-floating-social :before {
+  box-sizing: border-box;
+}
+a, a:hover {
+  text-decoration: none;
+}
+.vnm-floating-social__icon.facebook {
+  color: #183186;
+}
+.vnm-floating-social__icon {
+  font-size: 18px;
+  color: #000;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  display: inline-block;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.06);
+  transition: 0.3s;
+}
+.vnm-floating-social *, .vnm-floating-social :after, .vnm-floating-social :before {
+  box-sizing: border-box;
+}
+.vnm-floating-social__icon.facebook {
+  color: #183186;
+}
+.vnm-floating-social__icon {
+  font-size: 18px;
+  color: #000;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  display: inline-block;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.06);
+  transition: 0.3s;
+}
+.vnm-floating-social [class*=" icon-"], .vnm-floating-social [class^=vnm-icon-] {
+  font-family: "vnm-icomoon"!important;
+  /* speak: never; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+}
+.vnm-floating-social__icon span {
+  display: inline-block;
+}
+.vnm-floating-social *, .vnm-floating-social :after, .vnm-floating-social :before {
+  box-sizing: border-box;
+}
+.vnm-floating-social .vnm-icon-facebook:before {
+  content: "f";
+  font-size: medium;
+}
+.vnm-floating-social *, .vnm-floating-social :after, .vnm-floating-social :before {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
